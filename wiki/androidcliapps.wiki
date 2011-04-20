@@ -1,0 +1,9 @@
+fb2png :
+http://code.google.com/p/android-fb2png/
+
+vim android:
+http://gdr.geekhood.net/gdrwpl/vim-android.php
+
+
+aria2 android
+http://en.sourceforge.jp/projects/sfnet_aria2/
