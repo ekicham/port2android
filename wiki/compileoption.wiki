@@ -1,4 +1,6 @@
 编译参数参考了ndk-build -p > filename和http://warpedtimes.wordpress.com/category/technology/android-technology/和http://www.bekatul.info/content/native-c-application-android
+
+
 PATH=$PATH:/opt/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin
 
 for C,编译命令行程序是需要crtbegin_dynamic.o  crtend_android.o，编译库文件不需要.
