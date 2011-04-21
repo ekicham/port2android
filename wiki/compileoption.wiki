@@ -1,8 +1,3 @@
-编译参数参考了ndk-build -p > filename
-http://warpedtimes.wordpress.com/category/technology/android-technology/
-http://www.bekatul.info/content/native-c-application-android
-
-
 PATH=$PATH:/opt/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin
 
 for C,编译命令行程序是需要crtbegin_dynamic.o  crtend_android.o，编译库文件不需要.
@@ -13,3 +8,11 @@ for C,编译命令行程序是需要crtbegin_dynamic.o  crtend_android.o，编�
 for C++,差不多不过include文件夹多些，链接的静态库多些,编译命令行程序是需要crtbegin_dynamic.o  crtend_android.o，编译库文件不需要。
 
 -fpic -ffunction-sections -funwind-tables -fstack-protector -D__ARM_ARCH_5__ -D__ARM_ARCH_5T__ -D__ARM_ARCH_5E__ -D__ARM_ARCH_5TE__  -Wno-psabi -march=armv5te -mtune=xscale -msoft-float -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -DANDROID  -Wa,--noexecstack   -O2 -DNDEBUG -g -fno-short-enums -I/opt/android-ndk/sources/cxx-stl/system/include -I/opt/android-ndk/platforms/android-8/arch-arm/usr/include -Wl,-rpath-link=/opt/android-ndk/platforms/android-8/arch-arm/usr/lib,-dynamic-linker=/system/bin/linker -L/opt/android-ndk/platforms/android-8/arch-arm/usr/lib -nostdlib -lc /opt/android-ndk/platforms/android-8/arch-arm/usr/lib/crtbegin_dynamic.o /opt/android-ndk/platforms/android-8/arch-arm/usr/lib/crtend_android.o /opt/android-ndk/sources/cxx-stl/gnu-libstdc++/libs/armeabi/libstdc++.a /opt/android-ndk/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/lib/gcc/arm-linux-androideabi/4.4.3/libgcc.a
+
+
+
+编译参数参考了ndk-build -p > filename
+
+http://warpedtimes.wordpress.com/category/technology/android-technology/
+
+http://www.bekatul.info/content/native-c-application-android
