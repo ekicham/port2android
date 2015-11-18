@@ -1,0 +1,16 @@
+fb2png :
+http://code.google.com/p/android-fb2png/
+
+vim android:
+http://gdr.geekhood.net/gdrwpl/vim-android.php
+
+
+aria2 android
+http://en.sourceforge.jp/projects/sfnet_aria2/
+
+
+GNU screen on Android
+http://forum.xda-developers.com/showthread.php?t=1399726
+
+wget for android.
+http://jacob.hoffman-andrews.com/android/wget/

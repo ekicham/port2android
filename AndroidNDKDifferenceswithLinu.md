@@ -1,0 +1,1 @@
+see http://bertleung.wordpress.com/2010/06/09/android-ndk-differences-with-linux/
